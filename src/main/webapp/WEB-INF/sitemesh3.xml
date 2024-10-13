@@ -1,0 +1,7 @@
+<decorators defaultdir="/WEB-INF/decorators/">
+
+    <mapping path="/*" decorator="web.jsp" />
+<!--    <mapping path="/admin/*" decorator="admin.jsp" />-->
+<!--    <mapping path="/user/*" decorator="user.jsp" />-->
+    <mapping path="/v1/api" excludes="true" />
+</decorators>
